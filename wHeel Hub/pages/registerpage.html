@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../styles/register.css">
+</head>
+<body>
+    <div class="registercontainer">
+
+        <div class="registerlogoouter">
+            <div class="registerlogo">
+                <a href="home.html">
+                    <img src="..//Assets/LogoWheelHub.png" alt="">
+                </a>
+                
+        </div>
+        </div>
+
+        <div class="registerformcontainerouter">
+            <div class="registerformcontainer">
+                <div class="registerheader">
+                    <h1>Register</h1>
+                </div>
+                <form id="registerform" action="loginpage.html">
+                    <div class="forminput">
+                        <label for="">Username</label>
+                        <input type="text" name="" id="username">
+                    </div>
+    
+                    <div class="forminput">
+                        <label for="">Email</label>
+                        <input type="text" name="" id="email">
+                    </div>
+    
+                    <div class="forminput">
+                        <label for="">Password</label>
+                        <input type="password" name="" id="password">
+                    </div>
+    
+                    <div class="forminput">
+                        <label for="">Confirm Password</label>
+                        <input type="password" name="" id="confpassword">
+                    </div>
+    
+                    <div class="genderinput">
+                        <label for="">Gender</label>
+                        
+                        <div class="genderinputs">
+                            <div class="genderinput1">
+                                <input name = "gender" id="male" type="radio">
+                                <label for="">Male</label>
+                            </div>
+                            <div class="genderinput1">
+                                <input name = "gender" id="female" type="radio">
+                                <label for="">Female</label>
+                            </div>
+                        </div>
+                        
+    
+                    <div class="forminput">
+                        <label for="">Date of Birth</label>
+                        <input type="date" name="" id="dob">
+                    </div>
+    
+                    <div class="termscondition">
+                        <input type="checkbox" id="termscondition">
+                        <p>I agree with the terms and conditions</p>
+                    </div>
+
+                    <div class="submitbtn">
+                        <input type="submit">
+                    </div>
+
+                    <div class="forminput">
+                        <p>Already have an account? <a href="loginpage.html">Sign in here!</a></p>
+                    </div>
+    
+                    
+                </form>
+               
+            </div>
+        </div>
+        
+    </div>
+    
+</body>
+
+    <script src="../script/register.js"></script>
+
+</html>

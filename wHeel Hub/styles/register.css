@@ -1,0 +1,212 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: antiquewhite;
+    overflow-x: hidden;
+    
+}
+
+body label, h1, p{
+    color: white;
+}
+
+.registercontainer{
+    width: 100vw;
+    height: 100vh;
+    gap: 4rem;
+}
+
+.registerformcontainer{
+    background-color: #7E6351;
+    width: 70%;
+    height: 90%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+    border-radius: 1rem;
+    padding-bottom: 3rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.8);
+    border: 3px rgb(76, 52, 36) solid;
+}
+
+.registerformcontainerouter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.registerheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.forminput{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 1rem;
+}
+
+.forminput input{
+    height: 1.5rem;
+    border-radius: 0.3rem;
+    transition: all ease-in-out 0.2s;
+}
+
+.forminput input:hover{
+    background-color: lightgrey;
+}
+
+.genderinput{
+    margin-top: 1rem;
+}
+
+.genderinputs{
+    margin-top: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+.termscondition{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+.submitbtn input{
+    width: 100%;
+    height: 2rem;
+    border-radius: 0.5rem;
+    background-color:  rgb(76, 52, 36);
+    color: white;
+    transition: all ease-in-out 0.2s;
+}
+
+.submitbtn input:hover{
+    background-color:  rgb(91, 63, 43);
+}
+
+.registerlogo{
+    width: 15rem;
+    height: 10rem;
+    margin-top: 3rem;
+}
+
+.registerlogo img{
+    width: 100%;
+    height: 100%;
+    transition: all ease-in-out 0.2s;
+}
+
+.registerlogo img:hover{
+    transform: scale(1.1);
+}
+
+.registerlogoouter{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.forminput a{
+    color: white;
+    transition: all 0.1s ease-in-out;
+}
+
+.forminput a:hover{
+    color: rgb(91, 63, 43);
+}
+
+@media only screen and (min-width: 1040px) {
+    .registercontainer{
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .registerformcontainer{
+        width: 100%;
+        height: 90%;
+        padding-left: 2rem;
+        padding-right: 2rem;
+        padding-top: 1rem;
+        margin-top: 2rem;
+        border-radius: 1rem;
+    }
+    
+    .registerheader{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    .forminput{
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 1rem;
+    }
+    
+    .forminput input{
+        height: 1.5rem;
+        border-radius: 0.3rem;
+    }
+    
+    .genderinput{
+        margin-top: 1rem;
+    }
+    
+    .genderinputs{
+        margin-top: 0.5rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+    
+    .termscondition{
+        display: flex;
+        flex-direction: row;
+        gap: 0.5rem;
+    }
+    
+    .submitbtn input{
+        width: 100%;
+        height: 2rem;
+        border-radius: 0.5rem;
+    }
+    
+    .registerlogo{
+        width: 18rem;
+        height: 12rem;
+        margin-top: 12rem;
+    }
+
+    .registercontainer{
+        width: 100vw;
+        height: 100vh;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 4rem;
+        margin-bottom: 2rem;
+    }
+
+    .registerlogo{
+        width: 30rem;
+        height: 20rem;
+        margin-top: 12rem;
+    }
+
+    
+}
